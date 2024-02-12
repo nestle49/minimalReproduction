@@ -76,7 +76,7 @@
         "unplugin-auto-import": "^0.17.5",
         "vite": "^5.1.1",
         "vite-plugin-dts": "^3.7.2",
-        "vue": "3.4.15",
+        "vue": "3.4.18",
         "vue-i18n": "^9.9.1",
         "vue-tsc": "^1.8.27",
         "vuepress": "^2.0.0-rc.7"
