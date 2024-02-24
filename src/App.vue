@@ -1,10 +1,24 @@
 <template>
     <div class="container">
         <h1>UI-kit Reproduction Demo</h1>
+
+        <TextArea
+            key="textarea"
+            :max-length="200"
+            name="name"
+            label="label"
+            value="val"
+        >
+                <template #label>
+                   NAME
+                </template>
+            </TextArea>
     </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import TextArea from '~/components/TextArea.vue'
+</script>
 
 <style lang="scss" scoped>
 .container {
